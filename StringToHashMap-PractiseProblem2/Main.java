@@ -19,7 +19,6 @@ class Main {
     return map;
   }
   public static void main(String[] args) {
-    System.out.println("Hello world!");
     String s = "To be or not to be, that is the question";
     HashMap<String,Integer> map = new HashMap();
     map = stringToMap(s);
